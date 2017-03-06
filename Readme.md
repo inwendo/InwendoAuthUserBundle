@@ -52,6 +52,8 @@ class AppKernel extends Kernel
         $bundles = array(
             // ...
 
+            new FOS\UserBundle\FOSUserBundle(),
+            new FOS\OAuthServerBundle\FOSOAuthServerBundle(),
             new Inwendo\Auth\UserBundle\InwendoAuthUserBundle(),
         );
 

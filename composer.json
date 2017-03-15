@@ -1,5 +1,5 @@
 {
-    "name": "inwendo/InwendoAuthUserBundle",
+    "name": "inwendo/iw_server_auth_user_symfony_bundle",
     "type": "symfony-bundle",
     "description": "Inwendo Auth User Bundle",
     "keywords": ["oauth", "oauth2", "server"],

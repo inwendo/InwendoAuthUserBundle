@@ -14,12 +14,12 @@ Edit the composer.json and add the following information:
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/inwendo/InwendoAuthUserBundle"
+            "url": "https://github.com/inwendo/iw_server_auth_user_symfony_bundle"
         }
     ],
     //...
     "require": {
-        "inwendo/InwendoAuthUserBundle": "dev-master"
+        "inwendo/iw_server_auth_user_symfony_bundle": "dev-master"
     }
     //...
 ````

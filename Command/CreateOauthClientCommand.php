@@ -27,5 +27,11 @@ class CreateOauthClientCommand extends ContainerAwareCommand
         $client = $clientManager->createClient();
         $client->setAllowedGrantTypes(array('password', 'token', 'authorization_code'));
         $clientManager->updateClient($client);
+
+        $output->writeln("Client Details:");
+        $output->writeln("Client ID:");
+        $output->writeln($client->getPublicId());
+        $output->writeln("Client Secret:");
+        $output->writeln($client->getSecret());
     }
 }
